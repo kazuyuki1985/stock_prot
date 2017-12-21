@@ -14,4 +14,9 @@ class TasksController < ApplicationController
           # Projectの全データを引っ張ってくる
           @Tasks = Task.all
     end
+
+    # showアクションを追加
+  def show
+    @Task = Task.find(params[:id])
+  end
 end

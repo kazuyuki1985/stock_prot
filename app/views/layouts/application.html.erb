@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Stock Prot Type | <%= yield(:title) %></title>
-  <%= stylesheet_link_tag    "application", media: "all",
-                                            "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <title>Stock Prot Type</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= image_tag 'Stock Prot Type-logo.png' %>
 <%= yield %>
+<%= link_to "HOME", "/" %>
+
 
 </body>
 </html>

@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get "tasks/home"
   get "tasks/help"
   get "tasks/about"
+  get "tasks/index"
 end
